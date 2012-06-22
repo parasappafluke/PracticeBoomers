@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61835A40159217610056E41C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61835A3F159217610056E41C /* UIKit.framework */; };
+		61835A42159217610056E41C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61835A41159217610056E41C /* Foundation.framework */; };
+		61835A44159217610056E41C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61835A43159217610056E41C /* CoreGraphics.framework */; };
+		61835A4C159217610056E41C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835A4B159217610056E41C /* main.m */; };
+		61835ABA15921AB10056E41C /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835A8E15921AB10056E41C /* PBAppDelegate.m */; };
+		61835ABB15921AB10056E41C /* PBBriefCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835A9115921AB10056E41C /* PBBriefCaseViewController.m */; };
+		61835ABC15921AB10056E41C /* PBCommentsWritterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835A9315921AB10056E41C /* PBCommentsWritterViewController.m */; };
+		61835ABD15921AB10056E41C /* PBInterviewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835A9515921AB10056E41C /* PBInterviewsViewController.m */; };
+		61835ABE15921AB10056E41C /* PBLessonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835A9715921AB10056E41C /* PBLessonsViewController.m */; };
+		61835ABF15921AB10056E41C /* PBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835A9915921AB10056E41C /* PBLoginViewController.m */; };
+		61835AC015921AB10056E41C /* PBQuickTipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835A9B15921AB10056E41C /* PBQuickTipsViewController.m */; };
+		61835AC115921AB10056E41C /* PBTrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835A9D15921AB10056E41C /* PBTrackerViewController.m */; };
+		61835AC215921AB10056E41C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 61835AA115921AB10056E41C /* first.png */; };
+		61835AC315921AB10056E41C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61835AA215921AB10056E41C /* first@2x.png */; };
+		61835AC415921AB10056E41C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 61835AA315921AB10056E41C /* second.png */; };
+		61835AC515921AB10056E41C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61835AA415921AB10056E41C /* second@2x.png */; };
+		61835AC615921AB10056E41C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61835AA615921AB10056E41C /* InfoPlist.strings */; };
+		61835AC715921AB10056E41C /* PBBriefCaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61835AA815921AB10056E41C /* PBBriefCaseViewController.xib */; };
+		61835AC815921AB10056E41C /* PBCommentsWritterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61835AAA15921AB10056E41C /* PBCommentsWritterViewController.xib */; };
+		61835AC915921AB10056E41C /* PBInterviewsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61835AAC15921AB10056E41C /* PBInterviewsViewController_iPad.xib */; };
+		61835ACA15921AB10056E41C /* PBInterviewsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61835AAE15921AB10056E41C /* PBInterviewsViewController_iPhone.xib */; };
+		61835ACB15921AB10056E41C /* PBLessonsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61835AB015921AB10056E41C /* PBLessonsViewController_iPad.xib */; };
+		61835ACC15921AB10056E41C /* PBLessonsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61835AB215921AB10056E41C /* PBLessonsViewController_iPhone.xib */; };
+		61835ACD15921AB10056E41C /* PBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61835AB415921AB10056E41C /* PBLoginViewController.xib */; };
+		61835ACE15921AB10056E41C /* PBQuickTipsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61835AB615921AB10056E41C /* PBQuickTipsViewController.xib */; };
+		61835ACF15921AB10056E41C /* PBTrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61835AB815921AB10056E41C /* PBTrackerViewController.xib */; };
+		61835AD215921ADB0056E41C /* PBLesson.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835AD115921ADB0056E41C /* PBLesson.m */; };
+		61835AD515921AFE0056E41C /* PBInterview.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835AD415921AFE0056E41C /* PBInterview.m */; };
+		61835AD815921B170056E41C /* PBTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835AD715921B170056E41C /* PBTips.m */; };
+		61835ADB15921B330056E41C /* PBComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835ADA15921B330056E41C /* PBComment.m */; };
+		61835AE3159225C50056E41C /* PBVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61835AE1159225C50056E41C /* PBVideoViewController.m */; };
+		61835AE4159225C50056E41C /* PBVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61835AE2159225C50056E41C /* PBVideoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61835A3B159217610056E41C /* PracticeBoomers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeBoomers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61835A3F159217610056E41C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		61835A41159217610056E41C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61835A43159217610056E41C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		61835A47159217610056E41C /* PracticeBoomers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PracticeBoomers-Info.plist"; sourceTree = "<group>"; };
+		61835A4B159217610056E41C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61835A4D159217610056E41C /* PracticeBoomers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PracticeBoomers-Prefix.pch"; sourceTree = "<group>"; };
+		61835A8D15921AB10056E41C /* PBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBAppDelegate.h; sourceTree = "<group>"; };
+		61835A8E15921AB10056E41C /* PBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBAppDelegate.m; sourceTree = "<group>"; };
+		61835A9015921AB10056E41C /* PBBriefCaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBBriefCaseViewController.h; sourceTree = "<group>"; };
+		61835A9115921AB10056E41C /* PBBriefCaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBBriefCaseViewController.m; sourceTree = "<group>"; };
+		61835A9215921AB10056E41C /* PBCommentsWritterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommentsWritterViewController.h; sourceTree = "<group>"; };
+		61835A9315921AB10056E41C /* PBCommentsWritterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommentsWritterViewController.m; sourceTree = "<group>"; };
+		61835A9415921AB10056E41C /* PBInterviewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBInterviewsViewController.h; sourceTree = "<group>"; };
+		61835A9515921AB10056E41C /* PBInterviewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBInterviewsViewController.m; sourceTree = "<group>"; };
+		61835A9615921AB10056E41C /* PBLessonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBLessonsViewController.h; sourceTree = "<group>"; };
+		61835A9715921AB10056E41C /* PBLessonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBLessonsViewController.m; sourceTree = "<group>"; };
+		61835A9815921AB10056E41C /* PBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBLoginViewController.h; sourceTree = "<group>"; };
+		61835A9915921AB10056E41C /* PBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBLoginViewController.m; sourceTree = "<group>"; };
+		61835A9A15921AB10056E41C /* PBQuickTipsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBQuickTipsViewController.h; sourceTree = "<group>"; };
+		61835A9B15921AB10056E41C /* PBQuickTipsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBQuickTipsViewController.m; sourceTree = "<group>"; };
+		61835A9C15921AB10056E41C /* PBTrackerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTrackerViewController.h; sourceTree = "<group>"; };
+		61835A9D15921AB10056E41C /* PBTrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTrackerViewController.m; sourceTree = "<group>"; };
+		61835AA115921AB10056E41C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		61835AA215921AB10056E41C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		61835AA315921AB10056E41C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		61835AA415921AB10056E41C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		61835AA715921AB10056E41C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61835AA915921AB10056E41C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PBBriefCaseViewController.xib; sourceTree = "<group>"; };
+		61835AAB15921AB10056E41C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PBCommentsWritterViewController.xib; sourceTree = "<group>"; };
+		61835AAD15921AB10056E41C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PBInterviewsViewController_iPad.xib; sourceTree = "<group>"; };
+		61835AAF15921AB10056E41C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PBInterviewsViewController_iPhone.xib; sourceTree = "<group>"; };
+		61835AB115921AB10056E41C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PBLessonsViewController_iPad.xib; sourceTree = "<group>"; };
+		61835AB315921AB10056E41C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PBLessonsViewController_iPhone.xib; sourceTree = "<group>"; };
+		61835AB515921AB10056E41C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PBLoginViewController.xib; sourceTree = "<group>"; };
+		61835AB715921AB10056E41C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PBQuickTipsViewController.xib; sourceTree = "<group>"; };
+		61835AB915921AB10056E41C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PBTrackerViewController.xib; sourceTree = "<group>"; };
+		61835AD015921ADB0056E41C /* PBLesson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBLesson.h; sourceTree = "<group>"; };
+		61835AD115921ADB0056E41C /* PBLesson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBLesson.m; sourceTree = "<group>"; };
+		61835AD315921AFE0056E41C /* PBInterview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBInterview.h; sourceTree = "<group>"; };
+		61835AD415921AFE0056E41C /* PBInterview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBInterview.m; sourceTree = "<group>"; };
+		61835AD615921B170056E41C /* PBTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTips.h; sourceTree = "<group>"; };
+		61835AD715921B170056E41C /* PBTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTips.m; sourceTree = "<group>"; };
+		61835AD915921B330056E41C /* PBComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBComment.h; sourceTree = "<group>"; };
+		61835ADA15921B330056E41C /* PBComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBComment.m; sourceTree = "<group>"; };
+		61835ADD159224C60056E41C /* PBCommentsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommentsProtocol.h; sourceTree = "<group>"; };
+		61835AE0159225C50056E41C /* PBVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBVideoViewController.h; sourceTree = "<group>"; };
+		61835AE1159225C50056E41C /* PBVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBVideoViewController.m; sourceTree = "<group>"; };
+		61835AE2159225C50056E41C /* PBVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PBVideoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61835A38159217610056E41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61835A40159217610056E41C /* UIKit.framework in Frameworks */,
+				61835A42159217610056E41C /* Foundation.framework in Frameworks */,
+				61835A44159217610056E41C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61835A30159217600056E41C = {
+			isa = PBXGroup;
+			children = (
+				61835A45159217610056E41C /* PracticeBoomers */,
+				61835A3E159217610056E41C /* Frameworks */,
+				61835A3C159217610056E41C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61835A3C159217610056E41C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61835A3B159217610056E41C /* PracticeBoomers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61835A3E159217610056E41C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61835A3F159217610056E41C /* UIKit.framework */,
+				61835A41159217610056E41C /* Foundation.framework */,
+				61835A43159217610056E41C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61835A45159217610056E41C /* PracticeBoomers */ = {
+			isa = PBXGroup;
+			children = (
+				61835ADC159224A40056E41C /* Protocols */,
+				61835A8C15921AB10056E41C /* AppDelegate */,
+				61835A8F15921AB10056E41C /* Controller */,
+				61835A9E15921AB10056E41C /* Model Classes */,
+				61835A9F15921AB10056E41C /* Resources */,
+				61835A46159217610056E41C /* Supporting Files */,
+			);
+			path = PracticeBoomers;
+			sourceTree = "<group>";
+		};
+		61835A46159217610056E41C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61835A47159217610056E41C /* PracticeBoomers-Info.plist */,
+				61835A4B159217610056E41C /* main.m */,
+				61835A4D159217610056E41C /* PracticeBoomers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61835A8C15921AB10056E41C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				61835A8D15921AB10056E41C /* PBAppDelegate.h */,
+				61835A8E15921AB10056E41C /* PBAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		61835A8F15921AB10056E41C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				61835A9015921AB10056E41C /* PBBriefCaseViewController.h */,
+				61835A9115921AB10056E41C /* PBBriefCaseViewController.m */,
+				61835A9215921AB10056E41C /* PBCommentsWritterViewController.h */,
+				61835A9315921AB10056E41C /* PBCommentsWritterViewController.m */,
+				61835A9415921AB10056E41C /* PBInterviewsViewController.h */,
+				61835A9515921AB10056E41C /* PBInterviewsViewController.m */,
+				61835A9615921AB10056E41C /* PBLessonsViewController.h */,
+				61835A9715921AB10056E41C /* PBLessonsViewController.m */,
+				61835A9815921AB10056E41C /* PBLoginViewController.h */,
+				61835A9915921AB10056E41C /* PBLoginViewController.m */,
+				61835A9A15921AB10056E41C /* PBQuickTipsViewController.h */,
+				61835A9B15921AB10056E41C /* PBQuickTipsViewController.m */,
+				61835A9C15921AB10056E41C /* PBTrackerViewController.h */,
+				61835A9D15921AB10056E41C /* PBTrackerViewController.m */,
+				61835AE0159225C50056E41C /* PBVideoViewController.h */,
+				61835AE1159225C50056E41C /* PBVideoViewController.m */,
+				61835AE2159225C50056E41C /* PBVideoViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		61835A9E15921AB10056E41C /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				61835AD015921ADB0056E41C /* PBLesson.h */,
+				61835AD115921ADB0056E41C /* PBLesson.m */,
+				61835AD315921AFE0056E41C /* PBInterview.h */,
+				61835AD415921AFE0056E41C /* PBInterview.m */,
+				61835AD615921B170056E41C /* PBTips.h */,
+				61835AD715921B170056E41C /* PBTips.m */,
+				61835AD915921B330056E41C /* PBComment.h */,
+				61835ADA15921B330056E41C /* PBComment.m */,
+			);
+			path = "Model Classes";
+			sourceTree = "<group>";
+		};
+		61835A9F15921AB10056E41C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61835AA015921AB10056E41C /* images */,
+				61835AA515921AB10056E41C /* xibs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		61835AA015921AB10056E41C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				61835AA115921AB10056E41C /* first.png */,
+				61835AA215921AB10056E41C /* first@2x.png */,
+				61835AA315921AB10056E41C /* second.png */,
+				61835AA415921AB10056E41C /* second@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		61835AA515921AB10056E41C /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				61835AA615921AB10056E41C /* InfoPlist.strings */,
+				61835AA815921AB10056E41C /* PBBriefCaseViewController.xib */,
+				61835AAA15921AB10056E41C /* PBCommentsWritterViewController.xib */,
+				61835AAC15921AB10056E41C /* PBInterviewsViewController_iPad.xib */,
+				61835AAE15921AB10056E41C /* PBInterviewsViewController_iPhone.xib */,
+				61835AB015921AB10056E41C /* PBLessonsViewController_iPad.xib */,
+				61835AB215921AB10056E41C /* PBLessonsViewController_iPhone.xib */,
+				61835AB415921AB10056E41C /* PBLoginViewController.xib */,
+				61835AB615921AB10056E41C /* PBQuickTipsViewController.xib */,
+				61835AB815921AB10056E41C /* PBTrackerViewController.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		61835ADC159224A40056E41C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				61835ADD159224C60056E41C /* PBCommentsProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61835A3A159217610056E41C /* PracticeBoomers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61835A6D159217610056E41C /* Build configuration list for PBXNativeTarget "PracticeBoomers" */;
+			buildPhases = (
+				61835A37159217610056E41C /* Sources */,
+				61835A38159217610056E41C /* Frameworks */,
+				61835A39159217610056E41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PracticeBoomers;
+			productName = PracticeBoomers;
+			productReference = 61835A3B159217610056E41C /* PracticeBoomers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61835A32159217600056E41C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 61835A35159217600056E41C /* Build configuration list for PBXProject "PracticeBoomers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61835A30159217600056E41C;
+			productRefGroup = 61835A3C159217610056E41C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61835A3A159217610056E41C /* PracticeBoomers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61835A39159217610056E41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61835AC215921AB10056E41C /* first.png in Resources */,
+				61835AC315921AB10056E41C /* first@2x.png in Resources */,
+				61835AC415921AB10056E41C /* second.png in Resources */,
+				61835AC515921AB10056E41C /* second@2x.png in Resources */,
+				61835AC615921AB10056E41C /* InfoPlist.strings in Resources */,
+				61835AC715921AB10056E41C /* PBBriefCaseViewController.xib in Resources */,
+				61835AC815921AB10056E41C /* PBCommentsWritterViewController.xib in Resources */,
+				61835AC915921AB10056E41C /* PBInterviewsViewController_iPad.xib in Resources */,
+				61835ACA15921AB10056E41C /* PBInterviewsViewController_iPhone.xib in Resources */,
+				61835ACB15921AB10056E41C /* PBLessonsViewController_iPad.xib in Resources */,
+				61835ACC15921AB10056E41C /* PBLessonsViewController_iPhone.xib in Resources */,
+				61835ACD15921AB10056E41C /* PBLoginViewController.xib in Resources */,
+				61835ACE15921AB10056E41C /* PBQuickTipsViewController.xib in Resources */,
+				61835ACF15921AB10056E41C /* PBTrackerViewController.xib in Resources */,
+				61835AE4159225C50056E41C /* PBVideoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61835A37159217610056E41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61835A4C159217610056E41C /* main.m in Sources */,
+				61835ABA15921AB10056E41C /* PBAppDelegate.m in Sources */,
+				61835ABB15921AB10056E41C /* PBBriefCaseViewController.m in Sources */,
+				61835ABC15921AB10056E41C /* PBCommentsWritterViewController.m in Sources */,
+				61835ABD15921AB10056E41C /* PBInterviewsViewController.m in Sources */,
+				61835ABE15921AB10056E41C /* PBLessonsViewController.m in Sources */,
+				61835ABF15921AB10056E41C /* PBLoginViewController.m in Sources */,
+				61835AC015921AB10056E41C /* PBQuickTipsViewController.m in Sources */,
+				61835AC115921AB10056E41C /* PBTrackerViewController.m in Sources */,
+				61835AD215921ADB0056E41C /* PBLesson.m in Sources */,
+				61835AD515921AFE0056E41C /* PBInterview.m in Sources */,
+				61835AD815921B170056E41C /* PBTips.m in Sources */,
+				61835ADB15921B330056E41C /* PBComment.m in Sources */,
+				61835AE3159225C50056E41C /* PBVideoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61835AA615921AB10056E41C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61835AA715921AB10056E41C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		61835AA815921AB10056E41C /* PBBriefCaseViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61835AA915921AB10056E41C /* en */,
+			);
+			name = PBBriefCaseViewController.xib;
+			sourceTree = "<group>";
+		};
+		61835AAA15921AB10056E41C /* PBCommentsWritterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61835AAB15921AB10056E41C /* en */,
+			);
+			name = PBCommentsWritterViewController.xib;
+			sourceTree = "<group>";
+		};
+		61835AAC15921AB10056E41C /* PBInterviewsViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61835AAD15921AB10056E41C /* en */,
+			);
+			name = PBInterviewsViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		61835AAE15921AB10056E41C /* PBInterviewsViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61835AAF15921AB10056E41C /* en */,
+			);
+			name = PBInterviewsViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		61835AB015921AB10056E41C /* PBLessonsViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61835AB115921AB10056E41C /* en */,
+			);
+			name = PBLessonsViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		61835AB215921AB10056E41C /* PBLessonsViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61835AB315921AB10056E41C /* en */,
+			);
+			name = PBLessonsViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		61835AB415921AB10056E41C /* PBLoginViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61835AB515921AB10056E41C /* en */,
+			);
+			name = PBLoginViewController.xib;
+			sourceTree = "<group>";
+		};
+		61835AB615921AB10056E41C /* PBQuickTipsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61835AB715921AB10056E41C /* en */,
+			);
+			name = PBQuickTipsViewController.xib;
+			sourceTree = "<group>";
+		};
+		61835AB815921AB10056E41C /* PBTrackerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61835AB915921AB10056E41C /* en */,
+			);
+			name = PBTrackerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61835A6B159217610056E41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61835A6C159217610056E41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61835A6E159217610056E41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PracticeBoomers/PracticeBoomers-Prefix.pch";
+				INFOPLIST_FILE = "PracticeBoomers/PracticeBoomers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		61835A6F159217610056E41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PracticeBoomers/PracticeBoomers-Prefix.pch";
+				INFOPLIST_FILE = "PracticeBoomers/PracticeBoomers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61835A35159217600056E41C /* Build configuration list for PBXProject "PracticeBoomers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61835A6B159217610056E41C /* Debug */,
+				61835A6C159217610056E41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61835A6D159217610056E41C /* Build configuration list for PBXNativeTarget "PracticeBoomers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61835A6E159217610056E41C /* Debug */,
+				61835A6F159217610056E41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61835A32159217600056E41C /* Project object */;
+}
